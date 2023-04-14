@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noImplicitAny": true,
+		"target": "ES2022",
+		"checkJs": true,
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"@types/*": ["@types/*"]
+		},
+	},
+	"include": [
+		"src/**/*",
+		"node_modules/@types/**/*",
+		"@types/**/*"
+	],
+	"exclude": [
+		"node_modules",
+	],
+}
